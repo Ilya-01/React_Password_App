@@ -1,17 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <h1>Password Generator</h1>,
+  document.querySelector("[class=\"generalText\"]")
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(
+  <div className="passwordBlock">
+    <div className="enterPasswordText">Enter Password Text Below</div>
+    <div className="enterPasswordInput">
+      <form>
+        <label>
+          <input type="" name="e34535" />
+          <input type="submit" value="🔒 Generate Password 🔒" />
+        </label>
+      </form>
+    </div>
+  </div>,
+  document.querySelector("[class=\"passwordBlock\"]")
+);
+
+// ReactDOM.render(
+//   <div className="outputResult">
+//     <form>
+//       <label>
+//         <input type=""/>
+//       </label>
+//     </form>
+//   </div>
+//   document.querySelector("[class=\"passwordBlock\"]")
+// );

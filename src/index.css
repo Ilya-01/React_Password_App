@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  text-align: center;
+  color: rgb(168, 147, 120);
+}
+
+.passwordBlock {
+ text-align: center;
+ margin-top: 40px;
+}
+
+.enterPasswordText {
+  text-align: center;
+  color: rgb(98, 170, 233);
+}
+
+.enterPasswordInput {
+  margin-top: 40px;
+}
+
+/* .outputResult {
+  text-align: center;
+  margin-top: 40px;
+} */
